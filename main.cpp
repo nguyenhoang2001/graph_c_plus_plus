@@ -349,7 +349,7 @@ int main()
         for (int j = 0; j < size; j++)
             a[i][j] = myarr[i][j];
     g.copyMatrix(a);
-    g.GraphTraverse(2);
+    // g.GraphTraverse(2);
     g.GraphTraverse(1);
     //g.printMatrix();
 }
